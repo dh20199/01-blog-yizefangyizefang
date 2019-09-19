@@ -1,0 +1,12 @@
+node_modules
+/TestResults/
+/dev/
+/node_modules
+git-fooling.js
+/Reflection/titaniumbones.md
+/mochawesome-report
+/package-lock.json
+.DS_Store
+.DS_Store?
+._*
+**/.DS_Store

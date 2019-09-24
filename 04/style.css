@@ -12,8 +12,8 @@ main {
     grid-template-areas: "nav nav nav"
                          "side art aside"
                          "side art aside";
-    grid-template-columns: 
-    grid-template-rows: 
+    grid-template-columns 
+    grid-template-rows
     grid-gap: 
 }
 
@@ -49,6 +49,7 @@ section.sidebar img {
 
 nav {
     background-color: rgba(30,200,30,0.3);
+    
 
 }
 

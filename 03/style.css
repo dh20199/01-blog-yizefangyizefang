@@ -1,6 +1,8 @@
 html {
+    font-family:”Roboto”, sans-serif;
     background-color: #ccc;
     box-sizing: border-box;
+    
 }
 
 *, *:before, *:after {
@@ -8,18 +10,29 @@ html {
 }
 
 main {
-    border: 2px black solid;
+    max-width: 50rem;
+    border: 10px black solid;
     padding: 10px;                      
 }
 
 header {
+    background-color: #dfebfb; 
     text-align: center;
+    padding: 5px;
 }
 
 article {
+margin-top: 10px;
+margin-bottom: 10px;
+display: flow-root;
 }
 
 article img {
+max-width: 15rem;
+float: left;
+border: 5px;
+margin-right: 5px;
+
 }
 
 footer {
@@ -31,6 +44,7 @@ footer {
     flex-order: row;
     justify-content: space-evenly;
     align-items: center;
+    min-height: 5rem;
 }
 
 button {

@@ -1,6 +1,4 @@
-/* /* article { */
-    background:  #0000;;
-}
+
 html {
     font-family:”Roboto”, sans-serif;
     background-color: red; 
@@ -17,9 +15,6 @@ main {
     max-width: 30rem;
     border: 10px red;
     padding: 10px;  
-    grid-template-areas: "header header header"
-                         "article article img"
-                         "article article img";
              
 }
 
@@ -30,10 +25,10 @@ header {
 }
 
 article {
-display: grid; 
 margin-top: 10px;
 margin-bottom: 10px;
 display: flow-root;
+display: grid;
 background-color: gold;
 }
 

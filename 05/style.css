@@ -1,3 +1,57 @@
-article {
+/* /* article { */
     background:  #0000;;
+}
+html {
+    font-family:”Roboto”, sans-serif;
+    background-color: red; 
+    box-sizing: border-box;
+    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+main {
+    display: flexbox;
+    max-width: 30rem;
+    border: 10px red;
+    padding: 10px;  
+    grid-template-areas: "header header header"
+                         "article article img"
+                         "article article img";
+             
+}
+
+header {
+    background-color: #186bd6; 
+    text-align: center;
+    padding: 5px;
+}
+
+article {
+display: grid; 
+margin-top: 10px;
+margin-bottom: 10px;
+display: flow-root;
+background-color: gold;
+}
+
+article img {
+max-width: 15rem;
+float: left;
+border: 5px;
+margin-right: 5px;
+
+}
+section.main {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+section.sources {
+margin-left: 100px;
+margin-right: 100px;
+border-color: gold;
+border-style: solid;
 }

@@ -11,14 +11,13 @@ main>header, main>article, main>footer {
     
 }
 
-main>header>h1 {
+/* main>header>h1 {
     text-align: center;
     text-color: magenta;
-}
+} */
 
 main>article {
     flex-grow: 1;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }

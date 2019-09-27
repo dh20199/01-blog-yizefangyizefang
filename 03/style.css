@@ -1,5 +1,5 @@
 html {
-    font-family:”Roboto”, sans-serif;
+    font-family:"Roboto", sans-serif; 
     background-color: #ccc;
     box-sizing: border-box;
     
@@ -19,7 +19,7 @@ main {
 header {
     background-color: #dfebfb; 
     text-align: center;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 article {
@@ -27,6 +27,7 @@ margin-top: 10px;
 margin-bottom: 10px;
 display: flow-root;
 margin-left: 10px;
+margin-right: 10px;
 }
 
 article img {
@@ -34,6 +35,7 @@ max-width: 15rem;
 float: left;
 border: 5px;
 margin-right: 5px;
+border-radius: 10px;
 
 }
 
